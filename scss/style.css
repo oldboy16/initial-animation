@@ -1,0 +1,58 @@
+header {
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  text-transform: uppercase;
+  animation-name: office;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+h1 {
+  color: black;
+  font-family: sans-serif;
+  letter-spacing: -5px;
+  font-weight: 900;
+  margin: 0 20px;
+  padding-top: 20px;
+}
+
+@keyframes office {
+  0% {
+    background-color: red;
+    left: 100px;
+    top: 0px;
+  }
+  25% {
+    background-color: orange;
+    left: 500px;
+    top: 400px;
+  }
+  50% {
+    background-color: green;
+    left: 0px;
+    top: 527px;
+  }
+  75% {
+    background-color: blue;
+    left: 500px;
+    top: 0px;
+  }
+  100% {
+    background-color: black;
+    color: white;
+    left: 100px;
+    top: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
